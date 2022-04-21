@@ -1,0 +1,24 @@
+name: 'Docker Hub Create Access Token'
+description: 'Create a Docker Hub access token using Docker Hub API'
+inputs:
+  username:
+    description: "The username of the Docker Hub account to authenticate with"
+    required: true
+  password:
+    description: "The password or personal access token (PAT) of the Docker Hub account to authenticate with"
+    required: true
+  token_label:
+    description: "Label of the access token that will be created"
+    required: true
+  scopes:
+    description: "Valid scopes: 'repo:admin', 'repo:write', 'repo:read', 'repo:public_read'. Specify multiple scopes by seperating them with ','. ex: repo:read,repo:write",
+    required: false
+    default: "repo:read"
+outputs:
+  uuid:
+    description": "UUID of created access token"
+  token:
+    description: "Created token"
+runs:
+  using: 'node16'
+  main: 'index.js'

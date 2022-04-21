@@ -1,0 +1,25 @@
+{
+  "name": "docker-hub-create-access-token-action",
+  "version": "1.0.0",
+  "description": "A custom action for creating Docker Hub access tokens using Docker Hub API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kantist/docker-hub-create-access-token-action.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kantist/docker-hub-create-access-token-action/issues"
+  },
+  "homepage": "https://github.com/kantist/docker-hub-create-access-token-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.6.0",
+    "@actions/github": "^5.0.1",
+    "axios": "^0.26.1"
+  }
+}
