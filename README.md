@@ -18,10 +18,7 @@ Create a Docker Hub access token using Docker Hub API
 
 ## `scopes`
 
-
-## `who-to-greet`
-
-**Required** The name of the person to greet. Default `"World"`.
+Valid scopes: 'repo:admin', 'repo:write', 'repo:read', 'repo:public_read'. Specify multiple scopes by seperating them with ','. ex: repo:read,repo:write
 
 ## Outputs
 
