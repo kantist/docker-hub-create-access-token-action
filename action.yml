@@ -11,7 +11,7 @@ inputs:
     description: "Label of the access token that will be created"
     required: true
   scopes:
-    description: "Valid scopes: 'repo:admin', 'repo:write', 'repo:read', 'repo:public_read'. Specify multiple scopes by seperating them with ','. ex: repo:read,repo:write",
+    description: "Valid scopes: 'repo:admin', 'repo:write', 'repo:read', 'repo:public_read'. Specify multiple scopes by seperating them with ','. ex: repo:read,repo:write"
     required: false
     default: "repo:read"
 outputs:
