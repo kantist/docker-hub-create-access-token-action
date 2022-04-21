@@ -16,7 +16,7 @@ inputs:
     default: "repo:read"
 outputs:
   uuid:
-    description": "UUID of created access token"
+    description: "UUID of created access token"
   token:
     description: "Created token"
 runs:
