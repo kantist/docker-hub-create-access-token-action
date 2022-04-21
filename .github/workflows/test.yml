@@ -20,4 +20,3 @@ jobs:
         run: |
           echo "UUID is: ${{ steps.create_token.outputs.uuid }}"
           echo "Token is: ${{ steps.create_token.outputs.token }}"
-
